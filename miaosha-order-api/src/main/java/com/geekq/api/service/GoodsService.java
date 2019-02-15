@@ -1,7 +1,6 @@
 package com.geekq.api.service;
 
 import com.geekq.api.entity.GoodsVo;
-import com.geekq.common.utils.resultbean.ResultGeekQ;
 
 import java.util.List;
 
@@ -10,5 +9,5 @@ import java.util.List;
  */
 public interface GoodsService {
 
-    public ResultGeekQ<List<GoodsVo>> listGoodsVo();
+    public List<GoodsVo> listGoodsVo();
 }
