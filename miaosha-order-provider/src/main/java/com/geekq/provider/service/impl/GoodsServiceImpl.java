@@ -20,6 +20,13 @@ public class GoodsServiceImpl implements GoodsService {
     @Override
     public List<GoodsVo> listGoodsVo() {
 
-        return goodsMapper.listGoodsVo();
+        List<GoodsVo> goodsVos = null;
+        try {
+            goodsVos = goodsMapper.listGoodsVo();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return  goodsVos;
     }
 }
