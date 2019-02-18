@@ -13,8 +13,8 @@ import java.util.Date;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-@Alias("goodsVo")
-public class GoodsVo implements Serializable {
+@Alias("goodsVoOrder")
+public class GoodsVoOrder implements Serializable {
 	private Long id;
 	private String goodsName;
 	private String goodsTitle;

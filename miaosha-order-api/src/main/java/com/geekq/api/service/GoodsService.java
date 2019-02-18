@@ -1,6 +1,7 @@
 package com.geekq.api.service;
 
-import com.geekq.api.entity.GoodsVo;
+import com.geekq.api.entity.GoodsVoOrder;
+import com.geekq.api.utils.ResultGeekQOrder;
 
 import java.util.List;
 
@@ -9,5 +10,22 @@ import java.util.List;
  */
 public interface GoodsService {
 
-    public List<GoodsVo> listGoodsVo();
+    /**
+     * 查询获取全部信息
+     * @return
+     */
+    public ResultGeekQOrder<List<GoodsVoOrder>> listGoodsVo();
+
+    /**
+     * 根据商品id查询货物信息
+     * @param goodsId
+     * @return
+     */
+    public ResultGeekQOrder<GoodsVoOrder> getGoodsVoByGoodsId(long goodsId);
+
+    /**
+     * 减库存
+     * @return
+     */
+    public  boolean reduceStock(GoodsVoOrder goods);
 }
