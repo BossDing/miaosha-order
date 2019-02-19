@@ -8,6 +8,6 @@ package com.geekq.api.service;
  */
 public interface DemoService {
 
-    String sayHello(String name);
+    String sayHello(String name) throws Exception;
 
 }

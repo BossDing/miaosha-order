@@ -13,8 +13,9 @@ import com.geekq.api.service.DemoService;
 public class DemoServiceImpl implements DemoService {
 
     @Override
-    public String sayHello(String name) {
+    public String sayHello(String name) throws Exception {
         System.out.println("2321121212312312");
-        return "Hello, " + name + " (from Spring Boot)";
+        throw  new  Exception();
+//        return "Hello, " + name + " (from Spring Boot)";
     }
 }
