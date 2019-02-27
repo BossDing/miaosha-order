@@ -1,0 +1,314 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'localRepository' (position: START_TAG seen ...<servers>\n  <localRepository>... @112:20)  @ D:\soft\apache-maven-3.5.0\bin\..\conf\settings.xml, line 112, column 20
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] miaosha-order
+[INFO] miaosha-order-api
+[INFO] miaosha-order-provider
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.51/kotlin-maven-plugin-1.2.51.pom
+Progress (1): 0.8/6.1 kBProgress (1): 4.9/6.1 kBProgress (1): 6.1 kB                        Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.51/kotlin-maven-plugin-1.2.51.pom (6.1 kB at 13 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-project/1.2.51/kotlin-project-1.2.51.pom
+Progress (1): 0.8/10 kBProgress (1): 4.9/10 kBProgress (1): 9.0/10 kBProgress (1): 10 kB                       Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-project/1.2.51/kotlin-project-1.2.51.pom (10 kB at 55 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.51/kotlin-maven-plugin-1.2.51.jar
+Progress (1): 0.8/79 kBProgress (1): 4.9/79 kBProgress (1): 9.0/79 kBProgress (1): 13/79 kB Progress (1): 17/79 kBProgress (1): 21/79 kBProgress (1): 25/79 kBProgress (1): 28/79 kBProgress (1): 31/79 kBProgress (1): 32/79 kBProgress (1): 36/79 kBProgress (1): 40/79 kBProgress (1): 41/79 kBProgress (1): 45/79 kBProgress (1): 49/79 kBProgress (1): 52/79 kBProgress (1): 56/79 kBProgress (1): 60/79 kBProgress (1): 61/79 kBProgress (1): 65/79 kBProgress (1): 69/79 kBProgress (1): 70/79 kBProgress (1): 74/79 kBProgress (1): 78/79 kBProgress (1): 79 kB                      Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.51/kotlin-maven-plugin-1.2.51.jar (79 kB at 593 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.pom
+Progress (1): 0.8/3.3 kBProgress (1): 3.3 kB                        Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.pom (3.3 kB at 28 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/jooq/jooq-parent/3.10.8/jooq-parent-3.10.8.pom
+Progress (1): 0.8/11 kBProgress (1): 4.9/11 kBProgress (1): 9.0/11 kBProgress (1): 11 kB                       Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/jooq/jooq-parent/3.10.8/jooq-parent-3.10.8.pom (11 kB at 89 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.jar
+Progress (1): 0.8/16 kBProgress (1): 4.9/16 kBProgress (1): 9.0/16 kBProgress (1): 13/16 kB Progress (1): 16 kB                      Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/jooq/jooq-codegen-maven/3.10.8/jooq-codegen-maven-3.10.8.jar (16 kB at 145 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom
+Progress (1): 0.8/16 kBProgress (1): 4.9/16 kBProgress (1): 9.0/16 kBProgress (1): 13/16 kB Progress (1): 16 kB                      Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom (16 kB at 144 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.jar
+Progress (1): 4.1/241 kBProgress (1): 4.7/241 kBProgress (1): 8.8/241 kBProgress (1): 13/241 kB Progress (1): 17/241 kBProgress (1): 21/241 kBProgress (1): 25/241 kBProgress (1): 29/241 kBProgress (1): 33/241 kBProgress (1): 37/241 kBProgress (1): 42/241 kBProgress (1): 46/241 kBProgress (1): 50/241 kBProgress (1): 54/241 kBProgress (1): 58/241 kBProgress (1): 62/241 kBProgress (1): 66/241 kBProgress (1): 70/241 kBProgress (1): 74/241 kBProgress (1): 78/241 kBProgress (1): 83/241 kBProgress (1): 87/241 kBProgress (1): 91/241 kBProgress (1): 95/241 kBProgress (1): 98/241 kBProgress (1): 102/241 kBProgress (1): 107/241 kBProgress (1): 111/241 kBProgress (1): 111/241 kBProgress (1): 115/241 kBProgress (1): 120/241 kBProgress (1): 123/241 kBProgress (1): 127/241 kBProgress (1): 131/241 kBProgress (1): 132/241 kBProgress (1): 136/241 kBProgress (1): 140/241 kBProgress (1): 143/241 kBProgress (1): 147/241 kBProgress (1): 151/241 kBProgress (1): 152/241 kBProgress (1): 156/241 kBProgress (1): 160/241 kBProgress (1): 164/241 kBProgress (1): 165/241 kBProgress (1): 169/241 kBProgress (1): 173/241 kBProgress (1): 175/241 kBProgress (1): 179/241 kBProgress (1): 183/241 kBProgress (1): 185/241 kBProgress (1): 190/241 kBProgress (1): 194/241 kBProgress (1): 196/241 kBProgress (1): 198/241 kBProgress (1): 200/241 kBProgress (1): 204/241 kBProgress (1): 208/241 kBProgress (1): 210/241 kBProgress (1): 214/241 kBProgress (1): 218/241 kBProgress (1): 219/241 kBProgress (1): 223/241 kBProgress (1): 227/241 kBProgress (1): 228/241 kBProgress (1): 232/241 kBProgress (1): 237/241 kBProgress (1): 237/241 kBProgress (1): 241 kB                        Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.jar (241 kB at 1.4 MB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.pom
+Progress (1): 0.8/14 kBProgress (1): 4.9/14 kBProgress (1): 9.0/14 kBProgress (1): 13/14 kB Progress (1): 14 kB                      Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.pom (14 kB at 139 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.jar
+Progress (1): 4.1/166 kBProgress (1): 7.7/166 kBProgress (1): 12/166 kB Progress (1): 16/166 kBProgress (1): 20/166 kBProgress (1): 24/166 kBProgress (1): 28/166 kBProgress (1): 32/166 kBProgress (1): 36/166 kBProgress (1): 40/166 kBProgress (1): 45/166 kBProgress (1): 49/166 kBProgress (1): 53/166 kBProgress (1): 57/166 kBProgress (1): 61/166 kBProgress (1): 65/166 kBProgress (1): 66/166 kBProgress (1): 70/166 kBProgress (1): 74/166 kBProgress (1): 75/166 kBProgress (1): 79/166 kBProgress (1): 83/166 kBProgress (1): 85/166 kBProgress (1): 89/166 kBProgress (1): 94/166 kBProgress (1): 94/166 kBProgress (1): 99/166 kBProgress (1): 103/166 kBProgress (1): 105/166 kBProgress (1): 109/166 kBProgress (1): 113/166 kBProgress (1): 114/166 kBProgress (1): 118/166 kBProgress (1): 122/166 kBProgress (1): 123/166 kBProgress (1): 127/166 kBProgress (1): 131/166 kBProgress (1): 132/166 kBProgress (1): 136/166 kBProgress (1): 140/166 kBProgress (1): 141/166 kBProgress (1): 145/166 kBProgress (1): 149/166 kBProgress (1): 152/166 kBProgress (1): 156/166 kBProgress (1): 160/166 kBProgress (1): 162/166 kBProgress (1): 166/166 kBProgress (1): 166 kB                        Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.jar (166 kB at 1.5 MB/s)
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building miaosha-order 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ miaosha-order ---
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.pom
+Progress (1): 0.8/5.9 kBProgress (1): 4.9/5.9 kBProgress (1): 5.9 kB                        Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.pom (5.9 kB at 58 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom
+Progress (1): 0.8/7.6 kBProgress (1): 4.9/7.6 kBProgress (1): 7.6 kB                        Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom (7.6 kB at 72 kB/s)
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.jar
+Downloading: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar
+Progress (1): 4.1/35 kBProgress (1): 7.3/35 kBProgress (1): 11/35 kB Progress (1): 16/35 kBProgress (1): 20/35 kBProgress (1): 20/35 kBProgress (1): 22/35 kBProgress (1): 26/35 kBProgress (1): 30/35 kBProgress (1): 31/35 kBProgress (1): 35/35 kBProgress (1): 35 kB   Progress (2): 35 kB | 0.8/123 kBProgress (2): 35 kB | 4.9/123 kBProgress (2): 35 kB | 9.0/123 kBProgress (2): 35 kB | 13/123 kB Progress (2): 35 kB | 17/123 kBProgress (2): 35 kB | 21/123 kBProgress (2): 35 kB | 25/123 kBProgress (2): 35 kB | 28/123 kBProgress (2): 35 kB | 32/123 kBProgress (2): 35 kB | 36/123 kBProgress (2): 35 kB | 39/123 kBProgress (2): 35 kB | 43/123 kBProgress (2): 35 kB | 47/123 kBProgress (2): 35 kB | 48/123 kBProgress (2): 35 kB | 52/123 kBProgress (2): 35 kB | 54/123 kBProgress (2): 35 kB | 58/123 kBProgress (2): 35 kB | 61/123 kBProgress (2): 35 kB | 65/123 kBProgress (2): 35 kB | 69/123 kBProgress (2): 35 kB | 70/123 kBProgress (2): 35 kB | 74/123 kBProgress (2): 35 kB | 78/123 kBProgress (2): 35 kB | 79/123 kBProgress (2): 35 kB | 83/123 kBProgress (2): 35 kB | 87/123 kBProgress (2): 35 kB | 88/123 kBProgress (2): 35 kB | 92/123 kBProgress (2): 35 kB | 96/123 kBProgress (2): 35 kB | 98/123 kBProgress (2): 35 kB | 102/123 kBProgress (2): 35 kB | 107/123 kBProgress (2): 35 kB | 107/123 kBProgress (2): 35 kB | 112/123 kBProgress (2): 35 kB | 116/123 kBProgress (2): 35 kB | 117/123 kBProgress (2): 35 kB | 121/123 kBProgress (2): 35 kB | 123 kB                                Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.jar (35 kB at 296 kB/s)
+Downloaded: http://maven.aliyun.com/nexus/content/repositories/central/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar (123 kB at 760 kB/s)
+[INFO] com.geekq.dubbo:miaosha-order:pom:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.32:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.32:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.32:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.projectlombok:lombok:jar:1.18.2:provided
+[INFO] +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.zaxxer:HikariCP:jar:2.7.9:compile
+[INFO] |  |  \- org.springframework:spring-jdbc:jar:5.0.8.RELEASE:compile
+[INFO] |  |     \- org.springframework:spring-tx:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.2:compile
+[INFO] |  +- org.mybatis:mybatis:jar:3.4.6:compile
+[INFO] |  \- org.mybatis:mybatis-spring:jar:1.3.2:compile
+[INFO] +- com.alibaba.boot:dubbo-spring-boot-starter:jar:0.2.0:compile
+[INFO] |  +- com.alibaba:dubbo:jar:2.6.2:compile
+[INFO] |  |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO] |  |  \- org.jboss.netty:netty:jar:3.2.5.Final:compile
+[INFO] |  \- com.alibaba.boot:dubbo-spring-boot-autoconfigure:jar:0.2.0:compile
+[INFO] +- org.apache.curator:curator-framework:jar:4.0.1:compile
+[INFO] |  \- org.apache.curator:curator-client:jar:4.0.1:compile
+[INFO] |     \- com.google.guava:guava:jar:20.0:compile
+[INFO] +- org.apache.zookeeper:zookeeper:jar:3.4.13:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+[INFO] |  +- log4j:log4j:jar:1.2.17:compile
+[INFO] |  +- jline:jline:jar:0.9.94:compile
+[INFO] |  +- org.apache.yetus:audience-annotations:jar:0.5.0:compile
+[INFO] |  \- io.netty:netty:jar:3.10.6.Final:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  |        \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.0.8.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] +- mysql:mysql-connector-java:jar:5.1.46:compile
+[INFO] \- com.alibaba:druid:jar:1.1.10:compile
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building miaosha-order-api 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ miaosha-order-api ---
+[INFO] com.geekq.api:miaosha-order-api:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.32:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.32:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.32:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.projectlombok:lombok:jar:1.18.2:provided
+[INFO] +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.zaxxer:HikariCP:jar:2.7.9:compile
+[INFO] |  |  \- org.springframework:spring-jdbc:jar:5.0.8.RELEASE:compile
+[INFO] |  |     \- org.springframework:spring-tx:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.2:compile
+[INFO] |  +- org.mybatis:mybatis:jar:3.4.6:compile
+[INFO] |  \- org.mybatis:mybatis-spring:jar:1.3.2:compile
+[INFO] +- com.alibaba.boot:dubbo-spring-boot-starter:jar:0.2.0:compile
+[INFO] |  +- com.alibaba:dubbo:jar:2.6.2:compile
+[INFO] |  |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO] |  |  \- org.jboss.netty:netty:jar:3.2.5.Final:compile
+[INFO] |  \- com.alibaba.boot:dubbo-spring-boot-autoconfigure:jar:0.2.0:compile
+[INFO] +- org.apache.curator:curator-framework:jar:4.0.1:compile
+[INFO] |  \- org.apache.curator:curator-client:jar:4.0.1:compile
+[INFO] |     \- com.google.guava:guava:jar:20.0:compile
+[INFO] +- org.apache.zookeeper:zookeeper:jar:3.4.13:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+[INFO] |  +- log4j:log4j:jar:1.2.17:compile
+[INFO] |  +- jline:jline:jar:0.9.94:compile
+[INFO] |  +- org.apache.yetus:audience-annotations:jar:0.5.0:compile
+[INFO] |  \- io.netty:netty:jar:3.10.6.Final:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  |        \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.0.8.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] +- mysql:mysql-connector-java:jar:5.1.46:compile
+[INFO] \- com.alibaba:druid:jar:1.1.10:compile
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building miaosha-order-provider 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.2:tree (default-cli) @ miaosha-order-provider ---
+[INFO] com.geekq.provider:miaosha-order-provider:jar:0.0.1-SNAPSHOT
+[INFO] +- com.geekq.api:miaosha-order-api:jar:0.0.1-SNAPSHOT:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.4.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+[INFO] |  |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+[INFO] |  |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.32:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.32:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.32:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.11.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.8.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.8.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.8.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.8.RELEASE:compile
+[INFO] +- org.projectlombok:lombok:jar:1.18.2:provided
+[INFO] +- org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.2:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.4.RELEASE:compile
+[INFO] |  |  +- com.zaxxer:HikariCP:jar:2.7.9:compile
+[INFO] |  |  \- org.springframework:spring-jdbc:jar:5.0.8.RELEASE:compile
+[INFO] |  |     \- org.springframework:spring-tx:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.2:compile
+[INFO] |  +- org.mybatis:mybatis:jar:3.4.6:compile
+[INFO] |  \- org.mybatis:mybatis-spring:jar:1.3.2:compile
+[INFO] +- com.alibaba.boot:dubbo-spring-boot-starter:jar:0.2.0:compile
+[INFO] |  +- com.alibaba:dubbo:jar:2.6.2:compile
+[INFO] |  |  +- org.javassist:javassist:jar:3.20.0-GA:compile
+[INFO] |  |  \- org.jboss.netty:netty:jar:3.2.5.Final:compile
+[INFO] |  \- com.alibaba.boot:dubbo-spring-boot-autoconfigure:jar:0.2.0:compile
+[INFO] +- org.apache.curator:curator-framework:jar:4.0.1:compile
+[INFO] |  \- org.apache.curator:curator-client:jar:4.0.1:compile
+[INFO] |     \- com.google.guava:guava:jar:20.0:compile
+[INFO] +- org.apache.zookeeper:zookeeper:jar:3.4.13:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  +- org.slf4j:slf4j-log4j12:jar:1.7.25:compile
+[INFO] |  +- log4j:log4j:jar:1.2.17:compile
+[INFO] |  +- jline:jline:jar:0.9.94:compile
+[INFO] |  +- org.apache.yetus:audience-annotations:jar:0.5.0:compile
+[INFO] |  \- io.netty:netty:jar:3.10.6.Final:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test:jar:2.0.4.RELEASE:test
+[INFO] |  +- org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.4.RELEASE:test
+[INFO] |  +- com.jayway.jsonpath:json-path:jar:2.4.0:test
+[INFO] |  |  \- net.minidev:json-smart:jar:2.3:test
+[INFO] |  |     \- net.minidev:accessors-smart:jar:1.2:test
+[INFO] |  |        \- org.ow2.asm:asm:jar:5.0.4:test
+[INFO] |  +- junit:junit:jar:4.12:test
+[INFO] |  +- org.assertj:assertj-core:jar:3.9.1:test
+[INFO] |  +- org.mockito:mockito-core:jar:2.15.0:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.7.11:test
+[INFO] |  |  +- net.bytebuddy:byte-buddy-agent:jar:1.7.11:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.6:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  +- org.skyscreamer:jsonassert:jar:1.5.0:test
+[INFO] |  |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO] |  +- org.springframework:spring-core:jar:5.0.8.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-jcl:jar:5.0.8.RELEASE:compile
+[INFO] |  +- org.springframework:spring-test:jar:5.0.8.RELEASE:test
+[INFO] |  \- org.xmlunit:xmlunit-core:jar:2.5.1:test
+[INFO] +- mysql:mysql-connector-java:jar:5.1.46:compile
+[INFO] \- com.alibaba:druid:jar:1.1.10:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] miaosha-order ...................................... SUCCESS [  1.960 s]
+[INFO] miaosha-order-api .................................. SUCCESS [  0.065 s]
+[INFO] miaosha-order-provider ............................. SUCCESS [  0.053 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.673 s
+[INFO] Finished at: 2019-02-19T19:11:45+08:00
+[INFO] Final Memory: 32M/262M
+[INFO] ------------------------------------------------------------------------

@@ -1,6 +1,5 @@
 package com.geekq.provider.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.geekq.api.entity.GoodsVoOrder;
 import com.geekq.api.entity.MiaoshaGoods;
 import com.geekq.api.service.GoodsService;
@@ -10,13 +9,14 @@ import com.geekq.provider.mapper.GoodsMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * @author 邱润泽
  */
-@Service(version = "${demo.service.version}")
+@Service("goodsService")
 public class GoodsServiceImpl implements GoodsService {
 
     private static Logger logger = LoggerFactory.getLogger(GoodsServiceImpl.class);
